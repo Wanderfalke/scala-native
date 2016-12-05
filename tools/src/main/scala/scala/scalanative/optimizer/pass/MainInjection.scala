@@ -2,7 +2,7 @@ package scala.scalanative
 package optimizer
 package pass
 
-import analysis.ClassHierarchy.Top
+import analysis.World._
 import nir._
 
 /** Introduces `main` function that sets up

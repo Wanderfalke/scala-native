@@ -2,7 +2,7 @@ package scala.scalanative
 package optimizer
 
 import tools.Config
-import analysis.ClassHierarchy.Top
+import analysis.World.Top
 import nir.{Global, Defn}
 
 trait PassCompanion extends linker.Inject {

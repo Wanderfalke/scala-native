@@ -5,10 +5,10 @@ package pass
 import scala.collection.mutable
 import scala.util.hashing.MurmurHash3
 
-import analysis.ClassHierarchy.Top
 import analysis.ControlFlow
 import analysis.ControlFlow.Block
 import analysis.DominatorTree
+import analysis.World._
 
 import nir._
 

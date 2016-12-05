@@ -3,7 +3,7 @@ package optimizer
 package pass
 
 import scala.collection.mutable
-import analysis.ClassHierarchy.Top
+import analysis.World._
 import analysis.ControlFlow
 import util.unreachable
 import nir._

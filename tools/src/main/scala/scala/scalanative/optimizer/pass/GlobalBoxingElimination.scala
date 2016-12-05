@@ -4,9 +4,9 @@ package pass
 
 import scala.collection.mutable
 import nir._, Inst.Let
-import analysis.ClassHierarchy.Top
 import analysis.DominatorTree
 import analysis.ControlFlow
+import analysis.World._
 
 /** Eliminates redundant box/unbox operations within
  *  a single method definition. This is quite simplistic approach
